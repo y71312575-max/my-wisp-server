@@ -1,5 +1,5 @@
-import http from "http";
-import wisp from "@mercuryworkshop/wisp-js/server";
+import http from "node:http";
+import { server as wisp } from "@mercuryworkshop/wisp-js/server";
 
 const port = process.env.PORT || 8080;
 
